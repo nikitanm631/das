@@ -30,9 +30,9 @@ $('.testimonials').owlCarousel({
 })
 </script>
 <script type="text/javascript">
-$('.consulting').owlCarousel({
+$('.index-services').owlCarousel({
 	loop:true,
-	margin:25,
+	margin:35,
 	dot:true,
 	autoplay:true,
 	autoplayTimeout:5000,

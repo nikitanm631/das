@@ -63,11 +63,11 @@ body{
 }
 
 .bg-red{
-  background-color: #f06769;
+  background-color: #c53639;
   color:white;
 }
 .text-red{
-  color: #f06769;
+  color: #ed282c;
 }
 
 .text-white{
@@ -82,18 +82,34 @@ body{
 }
 
 .btn-theme{
-  border-radius: 30px;
-  padding: 8px 26px;
-  border:1px solid #d83f87;
+  border-radius: 40px;
+  padding: 8px 16px;
+  border:1px solid transparent;
   color: #ffffff;
   transition: 0.5s;
-  padding: 8px 28px;
-  font-size: 18px;
+  font-size: 16px;
+  background-color: #ff444d;
 }
 .btn-theme:hover{
-  border: 1px solid #3494E6;
+  border: 1px solid transparent;
   color: #ffffff;
   transition: 0.5s;
+  background-color: #d92b33;
+}
+.btn-light{
+  border-radius: 40px;
+  padding: 8px 16px;
+  border:2px solid #ed282c;
+  color: #ed282c;
+  transition: 0.5s;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: white;
+}
+.btn-light:hover{
+  color: white;
+  transition: 0.5s;
+  background-color: #ed282c;
 }
 .floater{
   position: absolute;
@@ -194,11 +210,44 @@ body{
 .carousel-control.right{
   background-image: none!important;
 }
+.carousel-indicators {
+    bottom: 60px;
+}
 
-/* -------------------------APPOINTMENT SEC */
+/* -------------------------APPOINTMENT SEC banner bottom */
+.appointment-sect{
+  margin-top: -4%;
+}
 .app-form{
   padding: 20px;
-  border-radius: 40px;
+  border-radius: 60px;
+}
+.app-form h3{
+  margin-top: 23px;
+  margin-left: 20px;
+}
+.banner-contact-n {
+  margin-top: 16px;
+}
+.banner-contact-n .form-control{
+  border-radius: 25px;
+  height: 42px;
+  background-color: #af262b;
+  border-color: #af262b;
+}
+
+/* -------------------------service section index*/
+.service-col-n h4{
+  margin-top: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 17px;
+}
+.service-col-n p{
+  
+  font-size: 13px;
+  margin-bottom: 27px;
 }
 
 
