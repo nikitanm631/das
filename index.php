@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Dr. Pooja Multani (Ghogare) </title>
-	<meta name = "keywords" content = "cardiologist">
-	<meta name = "description" content = "cardiologist in vashi navi mumbai">
+	<title>Das Hospital | Home </title>
+	<meta name = "keywords" content = "multi-speciality hospital">
+	<meta name = "description" content = "multi-speciality hospital in mumbai">
 
 	<?php include 'includes/head.php'; ?>
 </head>
@@ -51,22 +51,28 @@
 		<section class="appointment-sect">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-12 ">
 						<div class="app-form bg-red">
 							<div class="row">
-								<div class="col-md-5">
-									<h2>Book an appointment</h2>
+								<div class="col-md-4">
+									<h3>Book an Appointment</h3>
 								</div>
-								<div class="col-md-7">
-									<form class="form-inline" action="index.html" method="post">
-										<div class="form-group">
-											<input type="text" name="" value="" class="form-control">
+								<div class="col-md-8">
+									<form class="banner-contact-n" action="index.html" method="post">
+										<div class="col-md-5">
+											<div class="form-group">
+												<input type="text" name="" value="" class="form-control" placeholder="Your Name">
+											</div>
 										</div>
-										<div class="form-group">
-											<input type="text" name="" value="" class="form-control">
+										<div class="col-md-5">
+											<div class="form-group">
+												<input type="text" name="" value="" class="form-control" placeholder="Department">
+											</div>
 										</div>
-										<div class="form-group">
-											<input type="submit" name="submit" value="Send" class="btn btn-default">
+										<div class="col-md-2">
+											<div class="form-group">
+												<input type="submit" name="submit" value="BOOK" class="btn btn-default btn-theme">
+											</div>
 										</div>
 									</form>
 								</div>
@@ -77,6 +83,45 @@
 			</div>
 		</section>
 		<!-- END APPOINTMENT SECTION -->
+
+		<!-- services section -->
+		<section class="service-sec-n pt-55 pb-40">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="sec-head">
+							<h1 class="text-center">Our <span class="text-red">Services</span> </h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="service-col3">
+							<h4>All Services</h4>
+							<ul>
+
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-9">
+						<div class="service-col9">
+							<div class="owl-carousel owl-theme index-services">
+						    <div class="item">
+						    	<div class="service-col-n">
+						    		<img src="http://medicare.bold-themes.com/cosmetic-surgery/wp-content/uploads/sites/11/2017/08/cosmetic-surgery-blog-15-320x213.jpg" alt="Das Hospital Services" class="img-responsive">
+										<h4>General Surgery</h4>
+										<p>Lorem ipsum dolor sit amet, consec adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
+										<a href="#" class="btn btn-light">Find Out More</a>
+						    	</div>
+						    </div>
+
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- services section end -->
 
 
 	</div>
