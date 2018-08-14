@@ -123,6 +123,22 @@
 		</section>
 		<!-- services section end -->
 
+		<!-- testimonial section -->
+		<section class="testimonial-sec pt-55 pb-40">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="owl-carousel owl-theme testimonials">
+							<div class="item">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- testimonial section end -->
+
 
 	</div>
 	<?php include 'includes/footer.php'; ?>
