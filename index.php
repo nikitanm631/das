@@ -125,7 +125,7 @@
 		</section>
 		<!-- services section end -->
 
-<<<<<<< HEAD
+
 		<!-- Testimonial section -->
 		<section class="testimonial-sec pt-55 pb-40">
 			<div class="container">
@@ -186,33 +186,9 @@
 		</section>
 		<!-- End Doctors section -->
 
-		<!-- MAP SECTION -->
-		<section class="map-sec">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-8">
-						
-					</div>
-					<div class="col-md-4 bg-red">
 
-=======
-		<!-- testimonial section -->
-		<section class="testimonial-sec pt-55 pb-40">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="owl-carousel owl-theme testimonials">
-							<div class="item">
 
-							</div>
-						</div>
->>>>>>> f63173881b99d208cc68b7e26796cb889005dbbc
-					</div>
-				</div>
-			</div>
-		</section>
-<<<<<<< HEAD
-		<!-- END MAP SECTION -->
+		
 
 		<!-- contact section -->
 		<section class="contact-sec-n pt-35 pb-40">
@@ -272,10 +248,10 @@
 			</div>
 		</section>
 		<!-- End Contact Section -->
-=======
+
 		<!-- testimonial section end -->
 
->>>>>>> f63173881b99d208cc68b7e26796cb889005dbbc
+
 
 	</div>
 	<?php include 'includes/footer.php'; ?>
