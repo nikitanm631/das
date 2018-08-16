@@ -90,17 +90,19 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="sec-head">
-							<h1 class="text-center">Our <span class="text-red">Services</span> </h1>
+							<h1 class=" heading">Our <span class="text-red">Services</span> </h1>
+							<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolor<p>
 						</div>
+						<br>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="service-col3">
 							<h4>All Services</h4>
-							<ul>
-
-							</ul>
+							<div class="service-list">
+								<?php include 'includes/sidebar.php' ?>
+							</div>
 						</div>
 					</div>
 					<div class="col-sm-9">
@@ -123,6 +125,139 @@
 		</section>
 		<!-- services section end -->
 
+		<!-- Testimonial section -->
+		<section class="testimonial-sec pt-55 pb-40">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>A Good Word Means A Lot</h4>
+						<h1 class="heading">Client <span class="text-red"> Testimonials </span> </h1>
+						<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolor</p>
+						<br>
+						<br>
+							<div class="owl-carousel owl-theme testimonials">
+
+									<div class="item">
+
+											<i class="fa fa-quote-left"></i>
+											<p class="text-justify">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+											</p>
+											<p> <b>- Name</b> </p>
+									</div>
+
+							</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Testimonial section -->
+
+		<!-- Doctors section -->
+		<section class="pt-55 pb-40 doc-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Meet The Team Of Experts</h4>
+						<h1 class="heading">Our <span class="text-red"> Doctors </span> </h1>
+						<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolor</p>
+						<br>
+
+						<div class="owl-carousel owl-theme doctors">
+							<div class="item">
+								<div class="doc-box">
+									<div class="img-sec">
+										<img src="http://medicare.bold-themes.com/cosmetic-surgery/wp-content/uploads/sites/11/2018/03/cosmetic-surgery-img-03.jpg" alt="" class="img-responsive">
+									</div>
+									<div class="name-sec bg-red pad">
+										<p>Head Surgeon</p>
+										<h3 class="heading"> Dr Das </h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Doctors section -->
+
+		<!-- MAP SECTION -->
+		<section class="map-sec">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8">
+						
+					</div>
+					<div class="col-md-4 bg-red">
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END MAP SECTION -->
+
+		<!-- contact section -->
+		<section class="contact-sec-n pt-35 pb-40">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="sec-head">
+							<h1 class="text-center"> <span class="text-red">Appointment</span> Form </h1>
+						</div>
+
+						<div class=" pad">
+							<form class="app-form-n" action="index.html" method="post">
+								<div class="form-group">
+									<input type="text" name="name" value="" class="form-control" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<input type="email" name="email" value="" class="form-control" placeholder="Email">
+								</div>
+								<div class="form-group">
+									<input type="text" name="subject" value="" class="form-control" placeholder="Subject">
+								</div>
+								<div class="form-group">
+									<textarea name="message" rows="8" cols="80" class="form-control" placeholder="Message"></textarea>
+								</div>
+								<div class="form-group">
+									<input type="submit" name="" value="Send" class="btn btn-theme">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-sm-6 details-col-n">
+						<div class="sec-head">
+							<h1 class="text-center"> <span class="text-red">Contact </span> Details </h1>
+						</div>
+						<br>
+						<p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
+
+						<div class="col-sm-4 text-center">
+							<img src="myimages/phone.png" alt="Das Hospital" class="img-responsive">
+							<h5>Call Us Anytime</h5>
+							<h5><b>+123 456 7890</b> </h5>
+						</div>
+
+						<div class="col-sm-4 text-center">
+							<img src="myimages/marker.png" alt="Das Hospital" class="img-responsive">
+							<h5>Visit Us in person</h5>
+							<h5><b>Mumbai, Maharashtra</b> </h5>
+						</div>
+
+						<div class="col-sm-4 text-center">
+							<img src="myimages/phone.png" alt="Das Hospital" class="img-responsive">
+							<h5>Email Us</h5>
+							<h5><b>contact@dashospital.com</b> </h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact Section -->
 
 	</div>
 	<?php include 'includes/footer.php'; ?>

@@ -245,24 +245,110 @@ body{
   padding-bottom: 17px;
 }
 .service-col-n p{
-  
+
   font-size: 13px;
   margin-bottom: 27px;
 }
 
+.service-list ul{
+  padding: 0;
+  height: 353px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.service-list .sidelist{
+  background-color: #f6d2d2;
+  border-radius: 25px;
+}
+.service-list ul li{
+  color:#333;
+}
+.service-list .sidelist ul .active, .service-list .sidelist ul a:hover li{
+  background-color: #d8b2b2;
+}
 
 /* ----------------------------- SIDEBAR SECTION */
 .sidelist ul li{
   list-style-type: none;
   padding: 12px;
+  margin: 5px;
+  transition: 0.5s;
 }
 .sidelist ul a{
   text-decoration: none;
   color: #333;
   margin-top: 8px;
 }
-.sidelist ul .active{
-  border-color: 
+.sidelist ul .active,
+.sidelist ul a:hover li{
+  background-color: #c53639;
+  color:white;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+
+/*
+========================================================= TESTIMONIAL SEC
+*/
+.testimonial-sec{
+  background-image: url('https://static1.squarespace.com/static/58aaeb57e6f2e14f1968b169/t/58b3d74f1e5b6c8280624160/1488181099295/Background+with+black+overlay.png?format=1500w');
+  background-size: cover;
+  background-attachment: fixed;
+  color:white;
+}
+.testimonial-sec .fa-quote-left{
+  font-size: 24px;
+  color:#e23b4d;
+}
+.testimonial-sec p{
+  font-size: 13px;
+}
+
+.heading{
+  position: relative;
+  margin-bottom: 20px;
+}
+.heading:after{
+  content: '';
+
+    width: 44px;
+
+    border: 1px solid #333;
+
+    position: absolute;
+    top: 108%;
+    left: 0;
+}
+.sub-heading{
+  font-size: 16px;
+}
+
+
+/*
+========================================================= ABOUT DOCTOR SEC
+*/
+.name-sec .heading{
+  margin-top: 0;
+}
+
+/*
+========================================================= contact SEC
+*/
+.app-form-n .form-control{
+  border-radius: 20px;
+  background-color: #efefef;
+}
+.details-col-n img{
+  margin: auto;
+}
+
+/*
+========================================================== FOOTER
+*/
+footer{
+  background-color: #333;
+  color:white;
 }
 
 
