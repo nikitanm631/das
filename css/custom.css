@@ -317,7 +317,7 @@ body{
     border: 1px solid #333;
 
     position: absolute;
-    top: 108%;
+    top: 139%;
     left: 0;
 }
 .sub-heading{
@@ -349,6 +349,17 @@ body{
 footer{
   background-color: #333;
   color:white;
+}
+
+
+/*
+============================================= SINGLE HEADER
+*/
+.single-banner{
+  background-image: url('https://www.baja-medical-directory.com/wp-content/themes/medical-directory/medical-directory/assets/img/banner-breadcrumb.jpg');
+  background-size:cover;
+  color:white;
+  padding: 40px;
 }
 
 
