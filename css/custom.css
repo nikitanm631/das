@@ -133,12 +133,16 @@ body{
   background-image: url('https://i1.wp.com/www.omnimaven.com/wp-content/uploads/2017/08/iStock-695349930.jpg?ssl=1');
   background-size: cover;
   color:white;
+  padding: 6px;
 }
 .banner-head .breadcrumb{
   background-color: transparent;
   padding: 0 2px;
   margin-bottom: 5px;
   margin-top: 6px;
+}
+.banner-head .breadcrumb li,.banner-head .breadcrumb li a{
+  color: white
 }
 .banner-head h2{
   margin-top: 0
@@ -342,6 +346,16 @@ body{
   margin: auto;
 }
 
+.contact-page form .form-control{
+  background-color: rgba(0,0,0,.07);
+  border-radius: 50px;
+  border: 0px solid #ccc;
+  box-shadow: none;
+  padding: 22px;
+}
+.contact-page form .textarea{
+  border-radius: 22px;
+}
 /*
 ========================================================== FOOTER
 */

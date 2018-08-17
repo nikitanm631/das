@@ -16,12 +16,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10">
+
+            <h2>Daycare</h2>
+            
             <ol class="breadcrumb">
               <li><a href="index.php">Home</a></li>
               <li><a href="services.php">Services</a></li>
               <li class="active">Daycare</li>
             </ol>
-            <h2>Daycare</h2>
           </div>
         </div>
       </div>
@@ -43,7 +45,7 @@
             FIND THE PAGE YOU WANT TO EDIT
             THE NAME OF THE PAGE WILL MATCH THE NAME OF THIS PAGES
             EDIT CONTENT OVER THERE..
-            P.S PLUGINS DO NOT WORK      
+            P.S PLUGINS DO NOT WORK
            -->
             <?php
 
