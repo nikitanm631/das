@@ -141,10 +141,17 @@
 									<div class="item">
 
 											<i class="fa fa-quote-left"></i>
+											<h4>Very Satisfied</h4>
 											<p class="text-justify">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 											</p>
 											<p> <b>- Name</b> </p>
+											<i class="fa fa-star text-red"></i>
+											<i class="fa fa-star text-red"></i>
+											<i class="fa fa-star text-red"></i>
+											<i class="fa fa-star text-red"></i>
+											<i class="fa fa-star"></i>
+
 									</div>
 
 							</div>
@@ -187,41 +194,42 @@
 		<!-- End Doctors section -->
 
 
-
-		
-
 		<!-- contact section -->
 		<section class="contact-sec-n pt-35 pb-40">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="sec-head">
-							<h1 class="text-center"> <span class="text-red">Appointment</span> Form </h1>
+							<h1> <span class="text-red">Working</span> Hours </h1>
+							<br>
 						</div>
 
-						<div class=" pad">
-							<form class="app-form-n" action="index.html" method="post">
-								<div class="form-group">
-									<input type="text" name="name" value="" class="form-control" placeholder="Name">
-								</div>
-								<div class="form-group">
-									<input type="email" name="email" value="" class="form-control" placeholder="Email">
-								</div>
-								<div class="form-group">
-									<input type="text" name="subject" value="" class="form-control" placeholder="Subject">
-								</div>
-								<div class="form-group">
-									<textarea name="message" rows="8" cols="80" class="form-control" placeholder="Message"></textarea>
-								</div>
-								<div class="form-group">
-									<input type="submit" name="" value="Send" class="btn btn-theme">
-								</div>
-							</form>
-						</div>
+						<table class="table">
+							<tr>
+								<td> <b>MON-WED</b> </td>
+								<td>8AM – 7PM</td>
+							</tr>
+							<tr>
+								<td> <b>THU</b>  </td>
+								<td>8AM – 7PM</td>
+							</tr>
+							<tr>
+								<td> <b>FRI & SAT</b> </td>
+								<td>8AM – 7PM</td>
+							</tr>
+							<tr>
+								<td> <b>SUN</b> </td>
+								<td>Closed</td>
+							</tr>
+						</table>
+
+							<a href="contact.php"><p> <i class="fa fa-calendar text-red"></i> &nbsp;&nbsp;&nbsp; Book An Appointment</p></a>
+
+
 					</div>
 					<div class="col-sm-6 details-col-n">
 						<div class="sec-head">
-							<h1 class="text-center"> <span class="text-red">Contact </span> Details </h1>
+							<h1> <span class="text-red">Contact </span> Details </h1>
 						</div>
 						<br>
 						<p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
