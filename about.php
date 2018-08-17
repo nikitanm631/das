@@ -120,6 +120,37 @@
 			</div>
 		</section>
 
+		<!-- Doctors section -->
+		<section class="pt-55 pb-40 doc-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Meet The Team Of Experts</h4>
+						<h1 class="heading">Our <span class="text-red"> Doctors </span> </h1>
+						<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolor</p>
+						<br>
+
+						<div class="owl-carousel owl-theme doctors">
+							<div class="item">
+								<div class="doc-box">
+									<div class="img-sec">
+										<img src="http://medicare.bold-themes.com/cosmetic-surgery/wp-content/uploads/sites/11/2018/03/cosmetic-surgery-img-03.jpg" alt="" class="img-responsive">
+									</div>
+									<div class="name-sec bg-red pad">
+										<p>Head Surgeon</p>
+										<h3 class="heading"> Dr Das </h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Doctors section -->
+
 	</div>
 	<?php include 'includes/footer.php'; ?>
 </body>
