@@ -268,11 +268,16 @@ body{
 }
 
 /* ----------------------------- SIDEBAR SECTION */
+.sidelist ul{
+  padding-left: 0;
+}
 .sidelist ul li{
   list-style-type: none;
-  padding: 12px;
+  padding: 10px 15px;
   margin: 5px;
   transition: 0.5s;
+  border: 1px solid #e6e6e6;
+  border-radius: 11px;
 }
 .sidelist ul a{
   text-decoration: none;
@@ -281,9 +286,9 @@ body{
 }
 .sidelist ul .active,
 .sidelist ul a:hover li{
-  background-color: #c53639;
-  color:white;
-  border-radius: 25px;
+  background-color: #ff3f4f;
+  color: white;
+  border-radius: 11px;
   transition: 0.5s;
 }
 
@@ -307,18 +312,15 @@ body{
 
 .heading{
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .heading:after{
   content: '';
-
-    width: 44px;
-
-    border: 1px solid #333;
-
-    position: absolute;
-    top: 139%;
-    left: 0;
+  width: 44px;
+  border: 1px solid #333;
+  position: absolute;
+  top: 139%;
+  left: 0;
 }
 .sub-heading{
   font-size: 16px;
@@ -362,6 +364,71 @@ footer{
   padding: 40px;
 }
 
+
+
+/*
+============================================= about page
+*/
+.profession-ul li{
+  position: relative;
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+.profession-ul li:before{
+  content: "\f00c";
+  font-family: FontAwesome;
+  color: #000;
+  font-size: 18px;
+  padding-right: 0.5em;
+  position: absolute;
+  top: 0px;
+  left: -27px;
+  color: #f34b33;
+}
+.qualifications-sec-n{
+  background: #BA5370;
+  background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);
+  background: linear-gradient(to right, #F4E2D8, #BA5370);
+
+}
+.qualifications-sec-n .nav-pills>li.active>a, .qualifications-sec-n .nav-pills>li.active>a:focus, .qualifications-sec-n .nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: transparent;
+
+}
+.qualifications-sec-n .nav-pills>li.active>a, .qualifications-sec-n .nav-pills>li.active>a:focus, .qualifications-sec-n .nav-pills>li.active>a:hover{
+
+}
+.qualifications-sec-n .nav>li>a:focus, .qualifications-sec-n .nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+.qualifications-sec-n .nav>li>a{
+  font-size: 18px;
+  padding: 10px 5px;
+}
+.qualifications-sec-n .tab-row-n{
+  border-bottom: 1px solid #b59090;
+}
+.qualifications-sec-n .tab-content-n{
+  padding: 30px;
+  text-align: justify;
+}
+.qualifications-sec-n .tab-content-n li{
+  margin: 5px;
+}
+
+
+/*
+============================================= speciality page
+*/
+.speciality-page-n .service-col-n{
+  border: 1px solid #e8e8e8;
+  padding: 15px;
+}
+.speciality-page-n .service-col-n p{
+  text-align: justify;
+}
 
 @media only screen and (max-width:500px) {
 

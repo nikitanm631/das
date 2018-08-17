@@ -29,15 +29,15 @@
     <!-- END SINGLE HEADER -->
 
     <section class="main-content pt-55 pb-40">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
 
-          <div class="col-md-8">
+          <div class="col-md-9">
 
           </div>
 
-          <div class="col-md-4">
-            <?php include 'includes/sidebar.php' ?>
+          <div class="col-md-3">
+            <?php include 'includes/list-other.php' ?>
           </div>
 
         </div>

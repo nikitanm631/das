@@ -62,21 +62,21 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Departments</a></li>
+            <li class="active"><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <!-- <li><a href="#">Departments</a></li> -->
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
               <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
+                <li><a href="services-speciality.php">Our Specialities</a></li>
+                <li><a href="services-other.php">Other Services</a></li>
+
               </ul>
             </li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
