@@ -133,12 +133,16 @@ body{
   background-image: url('https://i1.wp.com/www.omnimaven.com/wp-content/uploads/2017/08/iStock-695349930.jpg?ssl=1');
   background-size: cover;
   color:white;
+  padding: 6px;
 }
 .banner-head .breadcrumb{
   background-color: transparent;
   padding: 0 2px;
   margin-bottom: 5px;
   margin-top: 6px;
+}
+.banner-head .breadcrumb li,.banner-head .breadcrumb li a{
+  color: white
 }
 .banner-head h2{
   margin-top: 0
@@ -236,36 +240,7 @@ body{
   border-color: #af262b;
 }
 
-/* -------------------------service section index*/
-.service-col-n h4{
-  margin-top: 28px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 17px;
-}
-.service-col-n p{
 
-  font-size: 13px;
-  margin-bottom: 27px;
-}
-
-.service-list ul{
-  padding: 0;
-  height: 353px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-.service-list .sidelist{
-  background-color: #f6d2d2;
-  border-radius: 25px;
-}
-.service-list ul li{
-  color:#333;
-}
-.service-list .sidelist ul .active, .service-list .sidelist ul a:hover li{
-  background-color: #d8b2b2;
-}
 
 /* ----------------------------- SIDEBAR SECTION */
 .sidelist ul{
@@ -291,7 +266,36 @@ body{
   border-radius: 11px;
   transition: 0.5s;
 }
+/* -------------------------service section index*/
+.service-col-n h4{
+  margin-top: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 17px;
+}
+.service-col-n p{
 
+  font-size: 13px;
+  margin-bottom: 27px;
+}
+
+.service-list ul{
+  padding: 0;
+}
+.service-list .sidelist{
+  background-color: #f6d2d2;
+  padding: 10px;
+}
+.service-list ul li{
+  color:#333;
+  border: 0;
+  padding: 5px 10px;
+}
+.service-list .sidelist ul .active, .service-list .sidelist ul a:hover li{
+  background-color: transparent;
+  color:#333;
+}
 
 /*
 ========================================================= TESTIMONIAL SEC
@@ -342,6 +346,16 @@ body{
   margin: auto;
 }
 
+.contact-page form .form-control{
+  background-color: rgba(0,0,0,.07);
+  border-radius: 50px;
+  border: 0px solid #ccc;
+  box-shadow: none;
+  padding: 22px;
+}
+.contact-page form .textarea{
+  border-radius: 22px;
+}
 /*
 ========================================================== FOOTER
 */
