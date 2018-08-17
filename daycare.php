@@ -18,7 +18,7 @@
           <div class="col-md-10">
 
             <h2>Daycare</h2>
-            
+
             <ol class="breadcrumb">
               <li><a href="index.php">Home</a></li>
               <li><a href="services.php">Services</a></li>
@@ -49,12 +49,12 @@
            -->
             <?php
 
-            $mysqli = new mysqli("localhost", "root", "", "das");
-
-            $result = $mysqli->query("SELECT post_content FROM wp_posts WHERE post_status = 'publish' AND post_title = 'daycare' ");
-            $row = $result->fetch_assoc();
-
-            print_r($row['post_content']);
+            // $mysqli = new mysqli("localhost", "root", "", "das");
+            //
+            // $result = $mysqli->query("SELECT post_content FROM wp_posts WHERE post_status = 'publish' AND post_title = 'daycare' ");
+            // $row = $result->fetch_assoc();
+            //
+            // print_r($row['post_content']);
 
              ?>
           </div>
