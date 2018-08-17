@@ -1,5 +1,82 @@
-<footer class="pad">
-	<p class="text-center"> Copyright &copy; 2018 all rights reserved </p>
+<footer>
+
+	<!-- TOP FOOTER -->
+	<div class="container-fluid top-footer pad">
+
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1 floater">
+				<div class="row">
+
+					<div class="col-md-3">
+						<img src="myimages/logo.jpg" alt="" class="img-responsive">
+					</div>
+
+					<div class="col-md-5">
+						<h2 class="text-dark">We Take Care Of <span class="text-red">Your Needs</span> </h2>
+					</div>
+
+					<div class="col-md-4">
+						<i class="fa fa-facebook text-dark"></i>
+						<i class="fa fa-twitter text-dark"></i>
+						<i class="fa fa-google-plus text-dark"></i>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row text-dark">
+
+			<div class="col-md-3">
+				<h3> <b>About Us</b> </h3>
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+			</div>
+
+			<div class="col-md-3">
+				<h3> <b>Quick Links</b> </h3>
+				<ul>
+					<li> <a href="index.php">Home</a> </li>
+					<li> <a href="about.php">About Us</a> </li>
+					<li> <a href="services.php">Services</a> </li>
+					<li> <a href="blog">Blog</a> </li>
+					<li> <a href="gallery.php">Gallery</a> </li>
+					<li> <a href="contact.php">Contact Us</a> </li>
+				</ul>
+			</div>
+
+			<div class="col-md-3">
+				<h3> <b>Recent Blog</b> </h3>
+				<p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit,</p>
+				<p> <b>- By Dr. Das</b> </p>
+				<br>
+				<p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit,</p>
+				<p> <b>- By Dr. Das</b> </p>
+			</div>
+
+			<div class="col-md-3">
+				<h3> <b>Contact Us</b> </h3>
+				<p> <i class="fa fa-phone"></i> +91 123456789</p>
+				<p> <i class="fa fa-envelope"></i> info@dashospital.com</p>
+				<p> <i class="fa fa-map-marker"></i> Address</p>
+			</div>
+
+		</div>
+
+	</div>
+	<!-- END TOP FOOTER -->
+
+	<!-- BOTTOM FOOTER -->
+	<div class="container-fluid bottom-footer">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p> <b>Copyright by Das Hospital 2018. All rights reserved.</b> </p>
+			</div>
+
+		</div>
+	</div>
+	<!-- END  BOTTOM FOOTER -->
+
+
 </footer>
 
 

@@ -292,10 +292,7 @@ body{
 ========================================================= TESTIMONIAL SEC
 */
 .testimonial-sec{
-  background-image: url('https://static1.squarespace.com/static/58aaeb57e6f2e14f1968b169/t/58b3d74f1e5b6c8280624160/1488181099295/Background+with+black+overlay.png?format=1500w');
-  background-size: cover;
-  background-attachment: fixed;
-  color:white;
+  background-color: #ebbebe;
 }
 .testimonial-sec .fa-quote-left{
   font-size: 24px;
@@ -347,13 +344,61 @@ body{
 ========================================================== FOOTER
 */
 footer{
-  background-color: #333;
   color:white;
+}
+.top-footer{
+  background-color: #ebbebe;
+}
+.top-footer .floater{
+  background-color: white;
+  padding: 12px;
+  position: relative;
+  border-radius: 70px;
+}
+.top-footer .floater img{
+  margin: auto;
+}
+.text-dark{
+  color:#333;
+}
+.top-footer .fa{
+  padding: 8px;
+  font-size: 18px;
+}
+.top-footer .col-md-10 .fa{
+  padding: 16px;
+  font-size: 24px;
+  margin-top: 19px;
+}
+
+.top-footer h2{
+  margin-top: 34px;
+}
+.top-footer .fa-facebook{
+  margin-left: 112px;
+}
+.top-footer ul{
+  list-style-type: none;
+}
+.top-footer ul li{
+  margin: 8px;
+}
+.top-footer ul li a{
+  color:#333;
+  text-decoration: none;
 }
 
 
+.bottom-footer{
+  background-color: #d06f6f;
+  padding: 12px;
+}
+.bottom-footer p{
+  margin: 0
+}
+
 /*
-============================================= SINGLE HEADER
+============================================= MISC
 */
 .single-banner{
   background-image: url('https://www.baja-medical-directory.com/wp-content/themes/medical-directory/medical-directory/assets/img/banner-breadcrumb.jpg');
@@ -361,7 +406,11 @@ footer{
   color:white;
   padding: 40px;
 }
-
+.table>tbody>tr>td{
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+}
 
 @media only screen and (max-width:500px) {
 
