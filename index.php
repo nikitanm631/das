@@ -127,15 +127,15 @@
 
 
 		<!-- Testimonial section -->
-		<section class="testimonial-sec pt-55 pb-40">
+		<section class="testimonial-sec pt-35 pb-40">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<h4>A Good Word Means A Lot</h4>
 						<h1 class="heading">Client <span class="text-red"> Testimonials </span> </h1>
-						<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolor</p>
+
 						<br>
-						<br>
+
 							<div class="owl-carousel owl-theme testimonials">
 
 									<div class="item">
@@ -151,7 +151,7 @@
 											<i class="fa fa-star text-red"></i>
 											<i class="fa fa-star text-red"></i>
 											<i class="fa fa-star"></i>
-
+											<br>
 									</div>
 
 							</div>

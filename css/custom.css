@@ -353,12 +353,13 @@ footer{
 }
 .top-footer .floater{
   background-color: white;
-  padding: 12px;
+  padding: 5px;
   position: relative;
   border-radius: 70px;
 }
 .top-footer .floater img{
   margin: auto;
+  width: 30%;
 }
 .text-dark{
   color:#333;
@@ -370,11 +371,11 @@ footer{
 .top-footer .col-md-10 .fa{
   padding: 16px;
   font-size: 24px;
-  margin-top: 19px;
+  margin-top: 10px;
 }
 
 .top-footer h2{
-  margin-top: 34px;
+  margin-top: 22px;
 }
 .top-footer .fa-facebook{
   margin-left: 112px;

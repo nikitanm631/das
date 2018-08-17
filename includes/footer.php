@@ -27,16 +27,16 @@
 		<br>
 		<div class="row text-dark">
 
-			<div class="col-md-3">
+			<div class="col-md-5 col-md-offset-1">
 				<h3> <b>About Us</b> </h3>
-				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ididunt ut labore et dolore ma</p>
+				<a href="about.php">Read More</a>
 			</div>
 
 			<div class="col-md-3">
 				<h3> <b>Quick Links</b> </h3>
 				<ul>
 					<li> <a href="index.php">Home</a> </li>
-					<li> <a href="about.php">About Us</a> </li>
 					<li> <a href="services.php">Services</a> </li>
 					<li> <a href="blog">Blog</a> </li>
 					<li> <a href="gallery.php">Gallery</a> </li>
@@ -44,14 +44,14 @@
 				</ul>
 			</div>
 
-			<div class="col-md-3">
+			<!-- <div class="col-md-3">
 				<h3> <b>Recent Blog</b> </h3>
 				<p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit,</p>
 				<p> <b>- By Dr. Das</b> </p>
 				<br>
 				<p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit,</p>
 				<p> <b>- By Dr. Das</b> </p>
-			</div>
+			</div> -->
 
 			<div class="col-md-3">
 				<h3> <b>Contact Us</b> </h3>
