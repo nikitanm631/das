@@ -18,12 +18,6 @@
           <div class="col-md-10">
 
             <h2>Daycare</h2>
-
-            <ol class="breadcrumb">
-              <li><a href="index.php">Home</a></li>
-              <li><a href="services.php">Services</a></li>
-              <li class="active">Daycare</li>
-            </ol>
           </div>
         </div>
       </div>

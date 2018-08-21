@@ -12,22 +12,23 @@
 	<div class="wrapper">
 
     <!-- SINGLE BANNER -->
-    <section class="single-banner">
+    <!-- <section class="single-banner">
       <div class="container">
         <h1>About Us</h1>
 
       </div>
-    </section>
+    </section> -->
     <!-- END SINGLE BANNER -->
 
-		<section class="pt-55 pb-40">
+		<section class="about-doc-sec pt-55 ">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-8">
+					<div class="col-sm-8 mt-55">
+						<h4>General Surgeon</h4>
 						<h1 class="heading">Dr. Debashish Das </h1><br>
-						<h4><span class="text-red">General & Laparoscopic Surgeon</span> </h4>
 
-						<p>Dr. Das is a General & Laparoscopic surgeon in private practice since 20/March/1983 at Chembur.<br> His <b>professional experience</b> includes - </p>
+						<p>Dr. Das is a General & Laparoscopic surgeon in private practice since 20/March/1983 at Chembur.</p>
+						<p>His <b>professional experience</b> includes - </p>
 						<ul class="profession-ul">
 							<li>Special interest in Abdominal & G I Surgeries. </li>
 							<li>Consultant Laparoscopic & General Surgeon at ASIAN CANCER INSTITUTE, MUMBAI</li>
@@ -36,7 +37,7 @@
 						</ul>
 					</div>
 					<div class="col-sm-4">
-						<img src="http://medicare.bold-themes.com/cosmetic-surgery/wp-content/uploads/sites/11/2018/03/cosmetic-surgery-img-03.jpg" alt="Das Hospital" class="img-responsive">
+						<img src="http://pngimg.com/uploads/doctor/doctor_PNG16007.png" alt="Das Hospital" class="img-responsive">
 					</div>
 				</div>
 			</div>
@@ -45,15 +46,15 @@
 		<section class="qualifications-sec-n pt-55 pb-40">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-2 n-pad">
+					<div class="col-sm-3 n-pad">
 						<h4 class="heading">More About Doctor</h4>
 
 						<h3>Biography</h3>
 					</div>
-					<div class="col-sm-10">
-						<div class="row tab-row-n">
-							<div class="col-sm-10 col-sm-offset-1">
-								<ul class="nav nav-pills nav-justified">
+					<div class="col-sm-9">
+						<div class="row">
+							<div class="col-sm-10 col-sm-offset-1 tab-row-n">
+								<ul class="nav nav-pills ">
 								  <li class="active"><a data-toggle="pill" href="#home">Academic Qualifications</a></li>
 								  <li><a data-toggle="pill" href="#menu1">Additional Qualifications</a></li>
 								  <li><a data-toggle="pill" href="#menu2">Extra Areas Of Interest</a></li>

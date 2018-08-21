@@ -85,32 +85,36 @@
 		<!-- END APPOINTMENT SECTION -->
 
 		<!-- services section -->
-		<section class="service-sec-n pt-55 pb-40">
+		<section class="service-sec-n pt-55 pb-40" ng-app="servicelist-a" ng-controller="servicelist-ctrl-a">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
-						<div class="sec-head">
-							<h1 class=" heading">Our <span class="text-red">Services</span> </h1>
-							<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolor<p>
-						</div>
+					<div class="col-sm-5">
+						<h4>Feel beautiful, be beautiful</h4>
+						<h1 class="heading">Our <span class="text-red"> Services</span> </h1>
+						<p class="sub-heading">When it comes to choosing multispeciality hospital, don’t trust your mind to just anyone. Choose any of our services from our procedures.</p>
 						<br>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="service-col3">
-							<h4>All Services</h4>
+							<h5 class="text-uppercase">All Services</h5>
 							<div class="service-list">
 								<div class="sidelist">
 								  <ul>
-								    <a href="#"> <li class="active">D&C (Dilation and Curettage)</li> </a>
+										<li ng-repeat="service in services | limitTo : 8 | filter:{type:'special'}"><a ng-href="{{service.url}}">{{service.name}}</a> </li>
+
+
+								    <!-- <a href="#"> <li class="active">D&C (Dilation and Curettage)</li> </a>
 								    <a href="#"> <li>Laparoscopic Adjustable Gastric Band</li> </a>
 								    <a href="#"> <li>Gastric Balloon</li> </a>
 								    <a href="#"> <li>Gastric Plication</li> </a>
 								    <a href="#"> <li>Mini Port Surgeries</li> </a>
 								    <a href="#"> <li>Laparoscopic Sleeve Resection</li> </a>
 								    <a href="#"> <li>Single Port Surgeries</li> </a>
-								    <a href="#"> <li>Gall Bladder (Biliary) Stone Treatment</li> </a>
+								    <a href="#"> <li>Gall Bladder (Biliary) Stone Treatment</li> </a> -->
+
+
 								    <!-- <a href="#"> <li>Colonoscopy</li> </a> -->
 								    <!-- <a href="#"> <li>Endoscopic Surgery</li> </a>
 								    <a href="#"> <li>Laparoscopic Surgery</li> </a>
@@ -135,7 +139,22 @@
 										<a href="#" class="btn btn-light">Find Out More</a>
 						    	</div>
 						    </div>
-
+								<!-- <div class="item" ng-repeat="service in services | limitTo : 12">
+									<div class="service-col-n">
+										<img src="{{service.image}}" alt="Das Hospital Services" class="img-responsive">
+										<h4>{{service.name}}</h4>
+										<p>{{service.content}}</p>
+										<a href="{{service.url}}" class="btn btn-light">Find Out More</a>
+									</div>
+								</div> -->
+								<!-- <div class="item">
+									<div class="service-col-n" ng-repeat="service in services | limitTo : 12">
+										<img src="{{service.image}}" alt="Das Hospital Services" class="img-responsive">
+										<h4>{{service.name}}</h4>
+										<p>{{service.content}}</p>
+										<a href="{{service.url}}" class="btn btn-light">Find Out More</a>
+									</div>
+								</div> -->
 						</div>
 						</div>
 					</div>
@@ -143,7 +162,6 @@
 			</div>
 		</section>
 		<!-- services section end -->
-
 
 		<!-- Testimonial section -->
 		<section class="testimonial-sec pt-35 pb-40">
@@ -185,11 +203,15 @@
 		<section class="pt-55 pb-40 doc-sec">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<h4>Meet The Team Of Experts</h4>
-						<h1 class="heading">Our <span class="text-red"> Doctors </span> </h1>
-						<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolor</p>
+					<div class="col-sm-6">
+						<h4>Professionalism. Excellence. Experience.</h4>
+						<h1 class="heading">Inspiring <span class="text-red"> confidence </span> </h1>
+						<p class="sub-heading">We ensure individualized and personal care that puts your needs and expectations first, and that starts with a one-on-one consultation in our office.</p>
 						<br>
+					</div>
+				</div>
+				<div class="row pb-40">
+					<div class="col-md-12">
 
 						<div class="owl-carousel owl-theme doctors">
 							<div class="item">
@@ -208,15 +230,75 @@
 
 					</div>
 				</div>
+				<div class="row pt-55">
+					<div class="col-sm-8 col-sm-offset-2 text-center">
+						<h4>Trust the Medicare professionals</h4>
+						<h1>Results now <span class="text-red"> & forever </span> </h1><br>
+						<p class="sub-heading">Today, we’re able to say with pride that we have some of the most qualified professionals ready to exceed your expectations and provide treatment.</p>
+						<br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="myimages/team.png" alt="Das Hospital" class="img-responsive" style="width:100%;">
+					</div>
+				</div>
 			</div>
 		</section>
 		<!-- End Doctors section -->
 
-
 		<!-- contact section -->
-		<section class="contact-sec-n pt-35 pb-40">
-			<div class="container">
+		<section class="contact-sec-n ">
+			<div class="container-fluid">
 				<div class="row">
+					<div class="col-sm-8 no-pad">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.0932358920318!2d72.89757181490087!3d19.05963788709731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf5650e2d933%3A0x6303c334d153505e!2sDr+Das+Hospital!5e0!3m2!1sen!2sin!4v1534740626131" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+
+					<div class="col-sm-4 bg-red pad index-details">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="sec-head">
+									<h3 class="text-white"> Working Hours </h3>
+									<br>
+								</div>
+
+								<table class="table">
+									<tr>
+										<td> <b>MON-WED</b> </td>
+										<td>8AM – 7PM</td>
+									</tr>
+									<tr>
+										<td> <b>THU</b>  </td>
+										<td>8AM – 7PM</td>
+									</tr>
+									<tr>
+										<td> <b>FRI & SAT</b> </td>
+										<td>8AM – 7PM</td>
+									</tr>
+									<tr>
+										<td> <b>SUN</b> </td>
+										<td>Closed</td>
+									</tr>
+								</table>
+
+									<a href="contact.php"><p class="text-white"> <i class="fa fa-calendar text-white"></i> &nbsp;&nbsp;&nbsp; Book An Appointment</p></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="sec-head">
+									<h3 class="text-white"> Contact Details </h3>
+								</div>
+								<p class="text-white"> <i class="fa fa-mobile text-white"></i> &nbsp;&nbsp;&nbsp; + 1234567890</p>
+								<p class="text-white"> <i class="fa fa-envelope text-white"></i> &nbsp;&nbsp;&nbsp; info@example.com</p>
+								<p class="text-white"> <i class="fa fa-map-marker text-white"></i> &nbsp;&nbsp;&nbsp; Address</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="row">
 					<div class="col-sm-6">
 						<div class="sec-head">
 							<h1> <span class="text-red">Working</span> Hours </h1>
@@ -271,14 +353,12 @@
 							<h5><b>contact@dashospital.com</b> </h5>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</section>
 		<!-- End Contact Section -->
 
-		<!-- testimonial section end -->
-
-
+		
 
 	</div>
 	<?php include 'includes/footer.php'; ?>
